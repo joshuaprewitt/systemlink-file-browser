@@ -1,45 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SourceFile Checksum="F05E6414BE6C3E6067A02C1C032AAA053831D3557CE9AEFE06D5985B993DE557F8029AE46B24E9D4252D3AEF34F7D659A64654D54724E6F49C0485B040A95A39" Timestamp="1D5728F71658C51" xmlns="http://www.ni.com/PlatformFramework">
-	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
-		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
-	</SourceModelFeatureSet>
-	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="1" RootNamespaceId="14" xmlns="http://www.ni.com/GComponent.xsd">
-		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
-			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
-			</IconPanel>
-		</Icon>
-		<CompilerSymbolTable Id="5" xmlns="http://www.ni.com/PlatformFramework" />
-		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="10" Name="Configuration1">
-			<CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
-			<WebApplicationOutputTypeProperties Id="12" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
-			<ComponentItemProperties AssociatedEnvoyId="57e21b2709524d5786abe2314ce11f4d" Id="6e75ec9c3a1742598f2d445c2727ec97" TopLevel="True" />
-		</ComponentConfiguration>
-	</ComponentDefinition>
-	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
-		<ProjectSettings Id="7" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
-		<EmbeddedDefinitionReference Id="8" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
-			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
-			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="14" Name="WebApp">
-				<SourceFileReference Id="c993337fb7f940d985386a5c60b0ed21" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Filter Systems by Package.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Filter Systems by Package.gviweb" />
-				<SourceFileReference Id="7577848b4ee9479c909f947179d3dc38" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Hostname.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Get Hostname.gviweb" />
-				<SourceFileReference Id="df8e724fe03a412491a74698265b912b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Minion ID.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Get Minion ID.gviweb" />
-				<SourceFileReference Id="7ae18c7eb9f34167a07f0645acf027e1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get System Info.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Get System Info.gviweb" />
-				<SourceFileReference Id="57e21b2709524d5786abe2314ce11f4d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Main.gviweb" />
-				<SourceFileReference Id="fa2a907110934e40b60768d43b8dee83" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read Health.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Read Health.gviweb" />
-				<SourceFileReference Id="9b2de396ab49422d9113a48341681d92" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Active Jobs.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Active Jobs.gviweb" />
-				<SourceFileReference Id="2df4bd9f2c88438abd6807390624885d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read File.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Read File.gviweb" />
-				<SourceFileReference Id="541d2b2f4be745738dcaa75d8e5f3c72" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Encode.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Encode.gviweb" />
-				<SourceFileReference Id="eb8938d8619e4c6b9982cf0afbaa08ae" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Search and Replace All.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Search and Replace All.gviweb" />
-				<SourceFileReference Id="7007bc883c284494a2224d1a08807306" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Results.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Get Results.gviweb" />
-			</NameScopingEnvoy>
-		</EmbeddedDefinitionReference>
-		<NameScopingEnvoy Id="9" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="WebApp.gcomp" NameTracksFileName="True">
-			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
-			<ContentReference ContentIdentifier="10" Id="13" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
-		</NameScopingEnvoy>
-	</EnvoyManagerFile>
+  <SourceModelFeatureSet>
+    <ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+    <ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+    <ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+    <ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
+  </SourceModelFeatureSet>
+  <ComponentDefinition DefaultConfigurationName="Configuration1" Id="1" RootNamespaceId="14" xmlns="http://www.ni.com/GComponent.xsd">
+    <Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+      <IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+        <IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+      </IconPanel>
+    </Icon>
+    <CompilerSymbolTable Id="5" xmlns="http://www.ni.com/PlatformFramework" />
+    <ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="10" Name="Configuration1">
+      <CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
+      <WebApplicationOutputTypeProperties Id="12" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+      <ComponentItemProperties AssociatedEnvoyId="57e21b2709524d5786abe2314ce11f4d" Id="6e75ec9c3a1742598f2d445c2727ec97" TopLevel="True" />
+    </ComponentConfiguration>
+  </ComponentDefinition>
+  <EnvoyManagerFile Id="6">
+    <EnvoyManagerRootEnvoy Id="7" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+    <EmbeddedDefinitionReference Id="8" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+      <ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+      <NameScopingEnvoy AutomaticallyResolveUp="True" Id="14" Name="WebApp">
+        <SourceFileReference Id="c993337fb7f940d985386a5c60b0ed21" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Filter Systems by Package.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Filter Systems by Package.gviweb" />
+        <SourceFileReference Id="7577848b4ee9479c909f947179d3dc38" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Hostname.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Get Hostname.gviweb" />
+        <SourceFileReference Id="df8e724fe03a412491a74698265b912b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Minion ID.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Get Minion ID.gviweb" />
+        <SourceFileReference Id="7ae18c7eb9f34167a07f0645acf027e1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get System Info.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Get System Info.gviweb" />
+        <SourceFileReference Id="57e21b2709524d5786abe2314ce11f4d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Main.gviweb" />
+        <SourceFileReference Id="fa2a907110934e40b60768d43b8dee83" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read Health.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Read Health.gviweb" />
+        <SourceFileReference Id="9b2de396ab49422d9113a48341681d92" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Active Jobs.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Active Jobs.gviweb" />
+        <SourceFileReference Id="2df4bd9f2c88438abd6807390624885d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read File.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Read File.gviweb" />
+        <SourceFileReference Id="541d2b2f4be745738dcaa75d8e5f3c72" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Encode.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Encode.gviweb" />
+        <SourceFileReference Id="eb8938d8619e4c6b9982cf0afbaa08ae" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Search and Replace All.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Search and Replace All.gviweb" />
+        <SourceFileReference Id="7007bc883c284494a2224d1a08807306" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Results.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Get Results.gviweb" />
+      </NameScopingEnvoy>
+    </EmbeddedDefinitionReference>
+    <NameScopingEnvoy Id="9" Name="WebApp.gcomp" NameTracksFileName="True">
+      <ContentReference ContentIdentifier="10" Id="13" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+    </NameScopingEnvoy>
+  </EnvoyManagerFile>
 </SourceFile>

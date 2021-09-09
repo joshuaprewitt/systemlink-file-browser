@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JobList>
+  <Job OutputType="Distribution:NiPackageInstaller">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
+      <BuildId>a31cb03b-b1f2-47b9-9a20-32954f9a8ac2</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
+      <BuildId>a31cb03b-b1f2-47b9-9a20-32954f9a8ac2</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\Package</OutputPath>
+    <BuildName>Package</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:46</LastTotalTime>
+    <StartTime>2021-09-09T15:05:20.2290178Z</StartTime>
+    <HasChild>True</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::NullTarget::Package.lvdist</QualifiedName>
+    <HintEnvoy>::NullTarget::Package.lvdist</HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>a4368f61-dc94-42c8-a72a-df2aaeafdaa6</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
+      <BuildId>a31cb03b-b1f2-47b9-9a20-32954f9a8ac2</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Default Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:04</LastTotalTime>
+    <StartTime>2021-09-09T15:05:20.5258767Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::VireoDevSystem::Interactive::WebApp.gcomp</QualifiedName>
+    <HintEnvoy>::VireoDevSystem::Interactive::WebApp.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="Distribution:NiPackagePartial">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
+      <BuildId>d6f83f16-850f-491e-bfd9-791b8e487bfc</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
+      <BuildId>d6f83f16-850f-491e-bfd9-791b8e487bfc</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\Package\systemlink-file-browser_1.0.0.1_windows_x64.nipkg</OutputPath>
+    <BuildName>Package</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:03</LastTotalTime>
+    <StartTime>2021-09-09T15:06:18.3098679Z</StartTime>
+    <HasChild>True</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::NullTarget::Package.lvdist</QualifiedName>
+    <HintEnvoy>::NullTarget::Package.lvdist</HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>2d2ccb56-14d6-4863-b704-5ed59c0ac11a</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
+      <BuildId>d6f83f16-850f-491e-bfd9-791b8e487bfc</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Default Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <StartTime>2021-09-09T15:06:18.4508007Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::VireoDevSystem::Interactive::WebApp.gcomp</QualifiedName>
+    <HintEnvoy>::VireoDevSystem::Interactive::WebApp.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>f9c37641-66e8-4886-ac3a-e65a870e1771</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>f9c37641-66e8-4886-ac3a-e65a870e1771</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Default Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2021-09-09T15:08:56.9307471Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy>::VireoDevSystem::Interactive::WebApp.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>6435dd59-305d-413a-8555-015497baed35</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>6435dd59-305d-413a-8555-015497baed35</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Default Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2021-09-09T15:09:48.3722886Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy>::VireoDevSystem::Interactive::WebApp.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>6bf5ff26-45c3-48d9-ad2a-7e73eed6105d</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>6bf5ff26-45c3-48d9-ad2a-7e73eed6105d</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Default Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2021-09-09T15:13:35.4730947Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy>::VireoDevSystem::Interactive::WebApp.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>074a9921-4cf1-41c0-9659-5ea7033803cf</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>074a9921-4cf1-41c0-9659-5ea7033803cf</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Default Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2021-09-09T15:14:27.0225278Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::VireoDevSystem::Interactive::WebApp.gcomp</QualifiedName>
+    <HintEnvoy>::VireoDevSystem::Interactive::WebApp.gcomp</HintEnvoy>
+  </Job>
+</JobList>
