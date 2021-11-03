@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="23255B85B68B221DEB66A8EF281545CDF4A9E8E127C3D58D555B81964DE1DE4797EC89B0778344131AE04286DE7D0D96911F7C50ADD0B1FC23005488D5C7E74F" Timestamp="1D7A58C9399077E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="6F1B83C61066B041F459502D114D916A13BEACA86783CA7F173E7DEC2576A12FECDFDF2957745893218B4A61E02815CFE27980BDEC8A4C59193EF1B9D2F9C366" Timestamp="1D7D0D5F0FC9C56" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="9.1.0.50238" Name="G Web Development Software" Version="21.0.0" />
 	</SourceModelFeatureSet>
-	<DistributionDefinition Product="WebApp" ShortDescription="SystemLink File Browser" TargetedProduct="LabVIEW" Version="1.0.0.2" xmlns="http://www.ni.com/GComponent.xsd">
+	<DistributionDefinition Product="WebApp" ShortDescription="SystemLink File Browser" TargetedProduct="LabVIEW" Version="1.0.0.7" xmlns="http://www.ni.com/GComponent.xsd">
 		<DistributionOutput CachedDisplayName="Package" Id="a932f2dfcca404a98f87d6b7bcc7a56" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:CustomNipmPackageName="systemlink-file-browser" p3:DistributionCategory="Application" p3:MaintainerEmail="support@ni.com" p3:MaintainerName="NI" p3:PackageDisplayName="File Viewer" xmlns:p3="http://www.ni.com/GComponent.xsd" />
 		<DistributionBuildTarget Id="e0fd549e4d074cfe9db2ef797ece8f09" Target="::VireoDevSystem" />
 		<DistributionMemberDependencySource Id="db18084c02974677a417d439c749d67a" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RootLocation="ApplicationFiles_64" Target="::VireoDevSystem::Interactive::WebApp.gcomp" />
